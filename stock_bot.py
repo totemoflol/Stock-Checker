@@ -1,8 +1,8 @@
 import os
 import requests
 
-API_KEY = os.environ["d8epd4pr01qub7ke2id0d8epd4pr01qub7ke2idg"]
-WEBHOOK = os.environ["https://discord.com/api/webhooks/1511013946646204556/A7No3F95ccDnpwmylshL3Rftpztoey4hGvNFQJ0Lx4ZzjZmxHXRNenD0JIUfR-Q-KDBI"]
+API_KEY = os.environ["FINNHUB_API_KEY"]
+WEBHOOK = os.environ["DISCORD_WEBHOOK"]
 
 stocks = ["AAPL", "NVDA", "TSLA"]
 
